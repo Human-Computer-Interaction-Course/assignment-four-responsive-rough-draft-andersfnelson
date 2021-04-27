@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HCI Assignment 4 - Home page</title>
+    <title>HCI Assignment 4 - People page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -13,26 +13,23 @@
 <body>
     <div id="content">
         <div id="headstruct">
-            
-            <nav id="top_button_wrapper">
+            <div id="top_button_wrapper">
                 <!--Flex container for button items-->
-                <!-- <img id="logo" src="img/dunwoody_logo.jpg" alt="Dunwoody logo"> -->
-                <a href='index.html'><div class="button top_button current">Home</div></a>
+                <a href='index.html'><div class="button top_button">Home</div></a>
                 <a href='people.html'><div class="button top_button">People</div></a>
                 <div class="button top_button">Courses</div>
                 <div class="button top_button">Plans</div>
                 <div class="button top_button">Reports</div>
                 <div class="button top_button">Login/logout</div>
-            </nav>
+            </div>
         </div>
         <div id="body_container">
-            <!-- <div id="gradient"> -->
             <!-- <div><img id="bg_img" src="./img/campus.jpg" alt="campus background"> -->
             <!-- </div> -->
-            <p><h1>Welcome, "username."</h1></p>
-            <br>
-            <p><h2>Click any of the links to get started.</h2></p>
-            <!-- </div> -->
+                <p id="about_section">
+                    This site designed by Anders Nelson for SENG 3230 - Human Computer Interaction
+                </p>
+
             </div>
                 <div id="footer_container">
                     <div id="bottom_button_wrapper">
@@ -42,8 +39,8 @@
                         <div class="button bottom_button">Reports</div>
                         <div class="button bottom_button hide_small">Terms of service</div>
                         <div class="button bottom_button hide_small">Contact</div>
-                        <a href='about.html'><div class="button bottom_button">About</div></a>
-                        
+                        <div class="button bottom_button current">About</div>
+
                     </div>
                 </div>
         </div>

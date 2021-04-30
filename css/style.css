@@ -104,7 +104,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 100%;
+    width: 95%;
     height: 100%;
 }
 #bottom_button_wrapper{
@@ -191,11 +191,12 @@ a{
     color: inherit;
 }
 #logo{
-    display: block;
-    width: 105px;
-    margin: 15px;
-    margin-left: auto;
-    border-radius: 15px;
+    /* display: block; */
+    float: left;
+    width: 25px;
+    margin-right: 10px;
+    /* margin-left: auto; */
+    border-radius: 5px;
 }
 .current{
     background-color: white;
